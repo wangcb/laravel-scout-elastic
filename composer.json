@@ -8,6 +8,12 @@
             "Wangcb\\LaravelScoutElastic\\": "src/"
         }
     },
+    "keywords": [
+        "laravel",
+        "scout",
+        "elasticsearch",
+        "elastic"
+    ],
     "authors": [
         {
             "name": "wangcb615",
@@ -18,7 +24,18 @@
         "php": "^7.2|^8.0|^8.1",
         "laravel/scout": "^9.3"
     },
+    "require-dev": {
+        "elasticsearch/elasticsearch": "^7.9"
+    },
     "suggest": {
         "elasticsearch/elasticsearch": "Required to use the Elasticsearch engine (^7.9.0)."
-    }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tamayo\\LaravelScoutElastic\\LaravelScoutElasticProvider"
+            ]
+        }
+    },
+    "prefer-stable": true
 }
