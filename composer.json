@@ -14,5 +14,11 @@
             "email": "wangcb615@163.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": "^7.2|^8.0|^8.1",
+        "laravel/scout": "^9.3"
+    },
+    "suggest": {
+        "elasticsearch/elasticsearch": "Required to use the Elasticsearch engine (^7.9.0)."
+    }
 }
