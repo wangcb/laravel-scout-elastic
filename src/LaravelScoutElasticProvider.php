@@ -1,6 +1,6 @@
 <?php
 
-namespace Tamayo\LaravelScoutElastic;
+namespace Wangcb\LaravelScoutElastic;
 
 use Exception;
 use Elasticsearch\ClientBuilder;

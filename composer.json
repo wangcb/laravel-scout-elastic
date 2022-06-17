@@ -1,0 +1,18 @@
+{
+    "name": "wangcb/laravel-scout-elastic",
+    "description": "elastic-drives",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Wangcb\\LaravelScoutElastic\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "wangcb615",
+            "email": "wangcb615@163.com"
+        }
+    ],
+    "require": {}
+}
