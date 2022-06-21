@@ -1,6 +1,6 @@
 # Laravel Scout Elasticsearch Driver
 
-[![Latest Stable Version](https://github.com/wangcb/laravel-scout-elastic)](//packagist.org/packages/wangcb/laravel-scout-elastic) [![Total Downloads](https://poser.pugx.org/tamayo/laravel-scout-elastic/downloads)](//packagist.org/packages/tamayo/laravel-scout-elastic) [![License](https://poser.pugx.org/tamayo/laravel-scout-elastic/license)](//packagist.org/packages/tamayo/laravel-scout-elastic) ![Build Status](https://travis-ci.org/ErickTamayo/laravel-scout-elastic.svg?branch=master)
+[![Latest Stable Version](https://github.com/wangcb/laravel-scout-elastic)](//packagist.org/packages/wangcb/laravel-scout-elastic) [![Total Downloads](https://poser.pugx.org/wangcb/laravel-scout-elastic/downloads)](//packagist.org/packages/wangcb/laravel-scout-elastic) [![License](https://poser.pugx.org/wangcb/laravel-scout-elastic/license)](//packagist.org/packages/wangcb/laravel-scout-elastic) ![Build Status](https://travis-ci.org/Erickwangcb/laravel-scout-elastic.svg?branch=master)
 
 This package provides a [Elasticsearch](https://www.elastic.co/products/elasticsearch) driver for Laravel Scout.
 
@@ -16,7 +16,7 @@ This package provides a [Elasticsearch](https://www.elastic.co/products/elastics
 You can install the package via composer:
 
 ```bash
-composer require tamayo/laravel-scout-elastic
+composer require wangcb/laravel-scout-elastic
 ```
 
 Laravel will automatically register the driver service provider.
@@ -76,7 +76,7 @@ Currrently user identification is not supported.
 
 ## Credits
 
-- [Erick Tamayo](https://github.com/ericktamayo)
+- [Erick wangcb](https://github.com/erickwangcb)
 - [All Contributors](../../contributors)
 
 ## License
