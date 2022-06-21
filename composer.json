@@ -33,7 +33,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Tamayo\\LaravelScoutElastic\\LaravelScoutElasticProvider"
+                "Wangcb\\LaravelScoutElastic\\LaravelScoutElasticProvider"
             ]
         }
     },
